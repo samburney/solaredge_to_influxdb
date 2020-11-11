@@ -40,7 +40,7 @@ def main():
         if len(fields) > 0:
             output_data = {
                 'time': datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds'),
-                'measurement': 'solaredge',
+                'measurement': 'solaredge_overview',
                 'tags': tags,
                 'fields': fields,
             }
